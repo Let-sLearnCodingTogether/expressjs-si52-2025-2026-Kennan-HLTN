@@ -1,3 +1,4 @@
+
 export const publicProfile = (req,res) => {
     const username = req.params.username;
 

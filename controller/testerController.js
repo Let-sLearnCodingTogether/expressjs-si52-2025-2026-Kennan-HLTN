@@ -1,7 +1,7 @@
 export const testerPage = (req, res) => {
     const name = req.params.name || 'Guest';
-    res.render('hello tester welcome', {
-        title: 'Hello Page',
+    res.render('tester', {
+        title: 'Tester Page',
         name: name
     });
 };
