@@ -1,26 +1,25 @@
 {
-  "name": "20092025",
+  "name": "expressjs-si52-2025-2026-vionethalavega20",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js"
   },
-  "type": "module",
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-vionethalavega20.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-vionethalavega20/issues"
+  },
+  "homepage": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-vionethalavega20#readme",
+  "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-Kennan-HLTN.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-Kennan-HLTN/issues"
-  },
-  "homepage": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-Kennan-HLTN#readme"
+  }
 }

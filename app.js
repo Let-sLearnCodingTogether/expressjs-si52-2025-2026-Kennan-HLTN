@@ -1,5 +1,6 @@
 import express from "express"
 import web from "./routes/web.js"
+
 const app = express()
 
 app.use(express.json())
@@ -11,5 +12,5 @@ app.set('view engine', 'ejs')
 app.use(web)
 
 app.listen(3000, () => {
-    console.log("Aplikasi berjalan di http:///localhost:3000");
+    console.log(`Aplikasi berjalan di http://localhost:3000`);
 })
