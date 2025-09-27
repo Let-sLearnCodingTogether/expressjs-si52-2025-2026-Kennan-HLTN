@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(-45deg, #ffcee6, #e73c73, #ffffff, #f984c0);
+    background: linear-gradient(-45deg, #94c3df, #2c5875, #84e5d0, #11508b);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     color: white
@@ -44,6 +44,8 @@ body {
     background: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
+    color: white;
+    font-weight: bold;
 }
 
 .btn-glass:hover {
@@ -53,4 +55,16 @@ body {
     color:white;
     transform:translateY(-3px);
     box-shadow: rgba( 0,0,0,0.15);
+}
+
+.social-icons a{
+    color:white;
+    font-size:1.8rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer{
+    font-size:0.8rem;
+    opacity:0.7;
 }
