@@ -1,3 +1,4 @@
+/*
 export const testerPage = (req, res) => {
     const name = req.params.name || 'Guest';
     res.render('tester', {
@@ -5,3 +6,4 @@ export const testerPage = (req, res) => {
         name: name
     });
 };
+*/
