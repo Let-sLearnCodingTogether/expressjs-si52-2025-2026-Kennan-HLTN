@@ -1,4 +1,5 @@
 import UserModel from "../models/userModel.js"
+import { hash } from "../utils/hashUtil.js"
 
 export const register = async (req, res) => {
     try {
@@ -7,10 +8,12 @@ export const register = async (req, res) => {
 
         console.log(registerData)
         
+        const hashPassword = hash(registerData.password)
+
         await UserModel.create({
             username : registerData.username,
             email: registerData.email,
-            password: registerData.password
+            password: hashPassword
         })
 
         res.status(201).json({
