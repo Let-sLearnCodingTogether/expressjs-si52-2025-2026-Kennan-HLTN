@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Let-sLearnCodingTogether/expressjs-si52-2025-2026-vionethalavega20#readme",
   "description": "",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "mongoose": "^8.18.3",
