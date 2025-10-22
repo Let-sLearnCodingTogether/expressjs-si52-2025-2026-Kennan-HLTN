@@ -6,5 +6,19 @@ export const publicProfile = (req,res) => {
         title: username,
         username: username,
         bio : "Uriel Was Here"
-    })
-}
+    });
+};
+
+export const privateProfile = async (req,res) => {
+    try{
+        res.status(200).json({
+            message: "Success Get Private Profile",
+            data : null,
+        });
+    }catch(error){
+        res.status(500).json({
+            message: error.message,
+            data : null,
+        });
+    }
+};

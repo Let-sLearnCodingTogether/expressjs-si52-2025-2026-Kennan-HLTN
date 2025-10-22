@@ -10,7 +10,7 @@ const opts = {
 passport.use(
     new Strategy(opts, async (payload, done) => {
         try {
-            const user = await UserModel.findById({
+            const user = await UserModel.findOne({
                 email : payload.email
             })
             //jika user tidak ditemukan
